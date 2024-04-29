@@ -28,8 +28,9 @@ class ListItemWidget extends StatelessWidget {
                         Container(
                           width: double.infinity,
                           height: 323.0,
-                          decoration: const BoxDecoration(
-                            gradient: LinearGradient(
+                          decoration:  BoxDecoration(
+                            borderRadius: BorderRadius.circular(25),
+                            gradient: const LinearGradient(
                               begin: Alignment.topCenter,
                               end: Alignment.bottomCenter,
                               colors: [Colors.transparent, Colors.black],
